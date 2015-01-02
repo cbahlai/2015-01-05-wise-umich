@@ -1,0 +1,17 @@
+{
+    "contents" : " x<- 5\n x  =6\n x\n args(read.csv)\n mass <- 47.5 # mass? \n age <- 122 # age? \n mass <- mass * 2.0 # mass? \n age <- age - 20 # age? \n massIndex <- mass/age # massIndex?\n tot=0\n vec<-c(1,2,3)\ntotal<-function(vec){\n  tot=0\n   for (v in vec){\n     tot<-tot+vec[v]\n   }\n   tot\n }\ntotal(vec)\n \n vec<-c(1,2,3)\n tot=0\n for (v in vec){\n   tot<-tot+vec[v]\n }\n tot",
+    "created" : 1420213661294.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "1253729697",
+    "id" : "98B89F58",
+    "lastKnownWriteTime" : 33777473953071216,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
